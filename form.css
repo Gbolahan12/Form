@@ -1,0 +1,80 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://media.wired.com/photos/5e73e37dd036ef00088bfb87/master/w_2560%2Cc_limit/Gear-Gamestop-693469182.jpg);
+    backdrop-filter: blur(2px);
+    color: #fffafa;
+    font-family: Tahoma;
+    font-size: 18px;
+  }
+  
+  h1, p {
+    margin:0.5em auto;
+    text-align: center;
+    color: rgb(209, 17, 17);
+  }
+  p{
+    font-style: italic;
+  }
+  .Survey{
+    width: 80%;
+    background-color:rgba(196, 146, 88, 0.4);
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    max-width: 600px;
+    border-radius: 0.8%;
+  }
+  form{
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    padding: 2em;
+  }
+  fieldset {
+    border: none;
+    padding:1rem 0;
+  }
+  .inline{
+    width: unset;
+  }
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  input, textarea, select{
+  width:100%;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.3rem;
+  }
+  input, textarea{
+    background-color: #fffbfb;
+    border: 0.5px solid rgba(196, 146, 88,) ;
+    color: #000000;
+    min-height: 1em;
+  }
+  
+  
+  input[type="submit"] {
+    display: block;
+    min-width: 300px;
+    width: 60%;
+    margin-top: 1em;
+    margin-bottom:1em;
+    margin-left: auto;
+    margin-right:auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #7c1e23;
+    border-color: white;
+  } 
+  label {
+    display: block;
+    margin: 1rem 0;
+  }
+  
